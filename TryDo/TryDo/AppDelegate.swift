@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  TryDo
-//
-//  Created by Kryspin Sarosiek on 15/08/2022.
-//
-
 import UIKit
 
 @main
