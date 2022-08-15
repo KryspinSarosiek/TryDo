@@ -4,4 +4,7 @@
    <FileRef
       location = "group:TryDo/TryDo.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:TryDoData">
+   </FileRef>
 </Workspace>
