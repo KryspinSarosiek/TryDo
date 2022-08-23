@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "extenswift",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:abeldemoz/ExtenSwift.git",
+      "state" : {
+        "revision" : "481090c1b48b7f59548933d87446bcbf8eb7f5f4",
+        "version" : "1.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}
