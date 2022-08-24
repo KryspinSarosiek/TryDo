@@ -12,6 +12,7 @@
 		6BC10C0028AA9F9A008B0496 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC10BFF28AA9F9A008B0496 /* ViewController.swift */; };
 		6BC10C0528AA9F9C008B0496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC10C0428AA9F9C008B0496 /* Assets.xcassets */; };
 		6BC10C0828AA9F9C008B0496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC10C0628AA9F9C008B0496 /* LaunchScreen.storyboard */; };
+		E7E8CA8328B4D78B00A82A69 /* ExtenSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E7E8CA8228B4D78B00A82A69 /* ExtenSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E8CA8328B4D78B00A82A69 /* ExtenSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +82,9 @@
 			dependencies = (
 			);
 			name = TryDo;
+			packageProductDependencies = (
+				E7E8CA8228B4D78B00A82A69 /* ExtenSwift */,
+			);
 			productName = TryDo;
 			productReference = 6BC10BF828AA9F9A008B0496 /* TryDo.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +113,9 @@
 				Base,
 			);
 			mainGroup = 6BC10BEF28AA9F9A008B0496;
+			packageReferences = (
+				E7E8CA8128B4D78B00A82A69 /* XCRemoteSwiftPackageReference "ExtenSwift" */,
+			);
 			productRefGroup = 6BC10BF928AA9F9A008B0496 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -344,6 +352,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E7E8CA8128B4D78B00A82A69 /* XCRemoteSwiftPackageReference "ExtenSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:abeldemoz/ExtenSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E7E8CA8228B4D78B00A82A69 /* ExtenSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7E8CA8128B4D78B00A82A69 /* XCRemoteSwiftPackageReference "ExtenSwift" */;
+			productName = ExtenSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6BC10BF028AA9F9A008B0496 /* Project object */;
 }
