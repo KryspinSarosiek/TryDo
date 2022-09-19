@@ -8,6 +8,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         let center = UNUserNotificationCenter.current()
         center.delegate = self
 
+        let coreDataManager = CoreDataManager(modelName: "Lists")
+        print(coreDataManager.managedObjectContext)
+
         return true
     }
 
